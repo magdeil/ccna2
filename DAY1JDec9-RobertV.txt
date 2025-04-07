@@ -610,26 +610,26 @@ conf t
   authenticate register
   create profile sync
  voice register dn 1
-   number ____
+   number 4129
    allow watch
-   name _______
+   name 4129
  voice register dn 2
-   number ___
+   number 4969
    allow watch
-   name _______
+   name 4969
 !
   voice register pool 1
-    id mac ____.____.____
+    id mac e87f.65fd.b15e
     number 1 dn 1
     dtmf-relay sip-notify
-    username ____ password ____
+    username 4129 password 4129
     codec g711ulaw
 !
   voice register pool 2
-    id mac ____.____.____
+    id mac 68c4.4c27.89ac
     number 1 dn 2
     dtmf-relay sip-notify
-    username ____ password ____
+    username 4969 password 4969
     codec g711ulaw
 !
 *******call other countries!!!********
